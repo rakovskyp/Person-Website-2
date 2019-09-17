@@ -1,0 +1,167 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+body {
+    color: #000;
+    background-color: #fff;
+    transition: background-color 1s ease;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+section {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    width: 100%;
+    background: red;
+}
+
+.divider {
+    height: 50px;
+}
+
+#profile-img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 3.5rem;
+    width: 75%;
+    max-width: 225px;
+    border-radius: 75%!important;
+    border: 1.5px solid rgba(200,200,200,.15);
+}
+
+#name {
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    margin-top: calc(1.5rem + 75px);
+    font-weight: 200;
+    font-size: 2.75rem;
+}
+
+.bodyText {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: rgb(109, 109, 109);
+}
+
+.college {
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.smartMirror {
+    background: rgb(43, 41, 41);
+    color: white;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.tenBullets {
+    background: rgb(189, 62, 62);
+    color: white;
+}
+
+.secTitle {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0px 18%;
+}
+
+.secFont {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    margin: 15px 18%;
+    font-size: 1.2rem;
+}
+
+.homie {
+    background: rgb(56, 108, 187);
+    color: white;
+}
+
+.sbn {
+    background: rgb(89, 150, 88);
+    color: white;
+    font-weight: 400;
+}
+
+.contact {
+    background: rgb(226, 226, 226);
+    color: rgb(43, 41, 41);
+    padding-top: 5rem;
+    padding-bottom: 5rem
+}
+
+#ing {
+    color: rgb(29, 49, 107);
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+#ingLogo {
+    height: auto;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 6px;
+}
+
+#smCover {
+    width: 100vw;
+    position: relative;
+    left: 0%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    display: inline-block;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: rgb(48, 51, 55);
+}
+
+#smPic:hover {
+    opacity: 1;	
+        transition: opacity 1s ease;
+}
+#smPic {
+    opacity: .75;
+        transition: opacity 1s ease;
+}
+
+A:link { COLOR: rgb(43, 41, 41); TEXT-DECORATION: none;  font-weight: 400;
+}
+A:visited { COLOR: rgb(43, 41, 41); TEXT-DECORATION: none; font-weight: 400; 
+}
+A:active { COLOR: rgb(43, 41, 41); TEXT-DECORATION: none; font-weight: 400;
+}
+
+.text-hover-image {
+    display: none;
+}
+.text-hover-image:hover {
+    display: block;
+}
+
+.intern {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    color: rgb(15, 15, 15);
+}
+
+#here {
+    font-weight: normal;
+    color: rgb(29, 49, 107);
+}
