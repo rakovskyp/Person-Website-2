@@ -111,7 +111,21 @@ section {
     font-family: 'Roboto Slab', serif;
 }
 
+#dell {
+    color: rgb(29, 131, 182);
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif;
+}
+
 #ingLogo {
+    height: auto;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 6px;
+}
+
+#dellLogo {
     height: auto;
     width: 1.5em;
     vertical-align: middle;
@@ -139,6 +153,11 @@ section {
 #smPic {
     opacity: .75;
         transition: opacity 1s ease;
+}
+
+#overrideTc {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 A:link { COLOR: rgb(43, 41, 41); TEXT-DECORATION: none;  font-weight: 400;
