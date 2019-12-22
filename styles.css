@@ -50,12 +50,14 @@ section {
     padding-right: 20%;
     font-family: 'Oxygen', sans-serif;
     font-weight: 200;
-    font-size: 1.1rem;
+    font-size: 14.4px;
     color: rgb(109, 109, 109);
 }
 
+@media screen and (min-width:576px){#sums{width:80%}}
+
 .college {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
