@@ -24,6 +24,21 @@ section {
     height: 50px;
 }
 
+@media screen and (max-width : 320px)
+{
+  p
+  {
+    font:12px/em/rm;
+  }
+}
+
+@media screen and (max-width : 1204px)
+{
+  p
+  {
+    font:18px/em/rm;
+  }
+}
 #profile-img {
     position: relative;
     display: block;
@@ -50,7 +65,7 @@ section {
     padding-right: 20%;
     font-family: 'Oxygen', sans-serif;
     font-weight: 200;
-    font-size: 14.4px;
+    /* font-size: 14.4px; */
     color: rgb(109, 109, 109);
 }
 
